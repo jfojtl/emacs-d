@@ -10,8 +10,10 @@
 ;; values in order to set the width (in characters wide) and height
 ;; (in lines high) Emacs will have whenever you start it
 
-;; (setq initial-frame-alist '((top . 0) (left . 0) (width . 20) (height . 20)))
+(setq initial-frame-alist '((top . 10) (left . 10) (width . 130) (height . 50)))
 
+(defvaralias 'c-basic-offset 'tab-width)
+(defvaralias 'cperl-indent-level 'tab-width)
 
 ;; Place downloaded elisp files in this directory. You'll then be able
 ;; to load them.
@@ -21,12 +23,15 @@
 ;;
 ;; (require 'yaml-mode)
 ;; (add-to-list 'auto-mode-alist '("\\.yml$" . yaml-mode))
-;; 
+;;
 ;; Adding this code will make Emacs enter yaml mode whenever you open
 ;; a .yml file
 (add-to-list 'load-path "~/.emacs.d/vendor")
 
-;; shell scripts
+;; Markdown
+(add-to-list 'auto-mode-alist '("\\.md\\'" . gfm-mode))
+
+;; Shell scripts
 (setq-default sh-basic-offset 2)
 (setq-default sh-indentation 2)
 
@@ -41,6 +46,7 @@
 (remove-hook 'text-mode-hook 'turn-on-flyspell)
 
 (load "~/.emacs.d/vendor/clojure")
+(setq tab-width 4) ; or any other preferred value
 
 ;; hippie expand - don't try to complete with file names
 (setq hippie-expand-try-functions-list (delete 'try-complete-file-name hippie-expand-try-functions-list))

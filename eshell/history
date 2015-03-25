@@ -1,0 +1,85 @@
+ls
+ls -l
+cd dev
+ls
+ls
+mkdir tidal
+cd tidal/
+ls
+mkdir desktop
+cd desktop/
+ls
+touch main.js
+touch package.json
+touch index.html
+ls
+cd
+cd Desktop/
+ls
+ls
+ls -l
+cd /Users/jfojtl/
+cd Desktop/
+ls
+cd ../Downloads/
+ls
+cd atom-shell-v0.21.2-darwin-x64/Atom.app/Contents/MacOS/
+ls
+./Atom 
+./Atom ~/dev/tidal/desktop/
+cd
+cd dev/tidal/desktop/
+ls
+./../../../Downloads/atom-shell-v0.21.2-darwin-x64/Atom.app/Contents/MacOS/Atom .
+ls
+cd dev/tidal/desktop/
+ls
+./../../../Downloads/atom-shell-v0.21.2-darwin-x64/Atom.app/Contents/MacOS/Atom .
+./../../../Downloads/atom-shell-v0.21.2-darwin-x64/Atom.app/Contents/MacOS/Atom .
+./../../../Downloads/atom-shell-v0.21.2-darwin-x64/Atom.app/Contents/MacOS/Atom .
+ls
+cd v1.1.2-pr-6/
+ls
+ls
+cd ..
+ls
+./../../../Downloads/atom-shell-v0.21.2-darwin-x64/Atom.app/Contents/MacOS/Atom .
+./../../../Downloads/atom-shell-v0.21.2-darwin-x64/Atom.app/Contents/MacOS/Atom .
+cd ../..
+ls
+find Asmx
+find .
+find Asmx
+ls
+ls -l
+echo $ANDROID_HOME
+source ~/.bash_profile
+ls
+ls -l
+cd /Users/jfojtl/Library/Developer/Xamarin/android-sdk-macosx
+ls
+cd tools/
+la
+ls
+cd ..
+ls
+cd platform-tools/
+ls
+adb
+./api/
+cd ..
+git status
+cd ../..
+cd ../..
+git add .
+git status
+git diff
+cd ../../../
+cd ylabs/mngtd/
+ls
+go
+echo $GOROOT
+echo $GOPATH
+echo "ahoj"
+go
+echo $PATH
